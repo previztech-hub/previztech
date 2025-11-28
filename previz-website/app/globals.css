@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional small resets and helpers */
+html, body, #__next {
+  height: 100%;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/* simple scrollbar hide utility used in the page */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
