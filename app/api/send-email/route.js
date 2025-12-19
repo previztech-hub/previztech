@@ -28,8 +28,8 @@ export async function POST(request) {
     });
 
     const recipients = [
-        "anandanathurelangovan94@gmail.com","vigneshwaran151@gmail.com"
-    //   'previz2013@gmail.com',
+        "anandanathurelangovan94@gmail.com","vigneshwaran151@gmail.com",
+      'previz2013@gmail.com',
     //   'previzprivatelimited2022@gmail.com',
     //   'previzsysadm@gmail.com'
     ];

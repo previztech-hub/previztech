@@ -19,3 +19,29 @@ html, body, #__next {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* Floating hero card animation */
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Subtle CTA micro-bounce for attention */
+@keyframes ctabounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0); }
+}
+.animate-cta {
+  animation: ctabounce 3.5s ease-in-out infinite;
+}
+
+/* Parallax transition helper for smooth background movement */
+.parallax-transition {
+  transition: transform 220ms cubic-bezier(.2,.9,.2,1);
+  will-change: transform;
+}
