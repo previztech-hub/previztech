@@ -517,7 +517,7 @@ export default function PrevizApp() {
         </div>
 
         <div className="container mx-auto px-4 relative z-10 text-left md:text-center">
-          <div className="mx-auto max-w-3xl p-4 md:py-12">
+          <div className="mx-auto max-w-3xl p-4 md:py-8">
             <div>
               <span className="inline-block py-1 px-3 rounded-full bg-black/40 text-white text-xs font-semibold tracking-wider mb-4 backdrop-blur-sm">
                 WELCOME TO THE FUTURE OF VISUALS
@@ -531,7 +531,7 @@ export default function PrevizApp() {
               </h2>
             </div>
 
-            <div className="flex justify-start md:justify-center gap-4">
+            <div className="flex justify-start md:justify-center gap-4 mt-16 md:mt-20">
               <button
                 onClick={scrollToContact}
                 className="px-6 py-2 bg-gradient-to-r from-yellow-400 to-yellow-600 text-black rounded-full font-semibold shadow-lg hover:scale-105 transform transition animate-cta"
